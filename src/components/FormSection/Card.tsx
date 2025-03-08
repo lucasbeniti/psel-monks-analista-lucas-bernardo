@@ -5,7 +5,7 @@ import TextBox from "./TextBox";
 
 const Card = () => {
   return (
-    <div className="h-[456px] w-full rounded-3xl bg-[#EAE8E4] p-6">
+    <div className="w-full rounded-3xl bg-[#EAE8E4] p-6">
       <TextBox />
       <InputFields />
       <Security />

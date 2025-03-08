@@ -6,7 +6,7 @@ const Input = ({ placeholder }: InputProps) => {
   return (
     <input
       type="text"
-      className="bg-white py-[6px] px-[10px] rounded-lg text-xl"
+      className="w-full rounded-lg bg-white px-[10px] py-[6px] text-base sm:text-xl"
       placeholder={placeholder}
     />
   );

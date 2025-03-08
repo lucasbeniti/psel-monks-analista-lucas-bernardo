@@ -1,16 +1,14 @@
 const TextBox = () => {
   return (
     <div>
-      <h1 className="font-semibold text-[40px] mb-2">
+      <h1 className="mb-2 text-2xl font-semibold sm:text-[40px]">
         Lorem ipsum dolor sit amet consectetur
       </h1>
-      <p className="text-xl mb-2">
+      <p className="mb-2 text-base sm:text-xl">
         Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus
         sit scelerisque
       </p>
-      <p className="text-[16px] pt-4">
-        *Lorem ipsum dolor sit amet consectetur
-      </p>
+      <p className="pt-4 text-base">*Lorem ipsum dolor sit amet consectetur</p>
     </div>
   );
 };
