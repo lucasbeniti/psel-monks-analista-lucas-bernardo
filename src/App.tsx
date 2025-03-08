@@ -4,6 +4,7 @@ import CardsSection from "./components/CardsSection/CardsSection";
 import CategorySession from "./components/CategorySession/CategorySession";
 import FooterSection from "./components/FooterSection/FooterSection";
 import FormSection from "./components/FormSection/FormSection";
+import ProductsSection from "./components/ProductsSection/ProductsSection";
 import Separator from "./components/Separator";
 
 function App() {
@@ -11,15 +12,15 @@ function App() {
     <>
       {/* <HeroSection /> */}
       <div className="px-6 sm:px-20">
-        {/* <ProductsSection />
-        <SimpleGallerySection /> */}
+        <ProductsSection />
+        {/* <SimpleGallerySection /> */}
         <AppSection />
         <CategorySession />
         <CardsSection />
       </div>
       <div className="bg-[#2D2D2D]">
         <FormSection />
-        <div className="px-20">
+        <div className="px-6 sm:px-20">
           <Separator />
         </div>
         <FooterSection />

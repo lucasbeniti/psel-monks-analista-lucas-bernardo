@@ -2,7 +2,7 @@ import ProductCard from "./Card";
 
 const Cards = () => {
   return (
-    <div className="flex items-center gap-6 w-full mt-10">
+    <div className="mt-6 mb-8 flex w-full flex-wrap items-center gap-4 sm:mt-10 sm:gap-6">
       <ProductCard />
       <ProductCard />
       <ProductCard />
