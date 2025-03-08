@@ -6,6 +6,7 @@ import FooterSection from "./components/FooterSection/FooterSection";
 import FormSection from "./components/FormSection/FormSection";
 import ProductsSection from "./components/ProductsSection/ProductsSection";
 import Separator from "./components/Separator";
+import SimpleGallerySection from "./components/SimpleGallerySection/SimpleGallerySection";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       {/* <HeroSection /> */}
       <div className="px-6 sm:px-20">
         <ProductsSection />
-        {/* <SimpleGallerySection /> */}
+        <SimpleGallerySection />
         <AppSection />
         <CategorySession />
         <CardsSection />
