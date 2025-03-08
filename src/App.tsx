@@ -2,6 +2,7 @@ import "./App.css";
 import AppSection from "./components/AppSection/AppSection";
 import CardsSection from "./components/CardsSection/CardsSection";
 import CategorySession from "./components/CategorySession/CategorySession";
+import FooterSection from "./components/FooterSection/FooterSection";
 
 function App() {
   return (
@@ -14,13 +15,13 @@ function App() {
         <CategorySession />
         <CardsSection />
       </div>
-      {/* <div className="bg-[#2D2D2D]">
-         <FormSection /> */}
-      {/* <div className="px-20">
-          {/* <Separator />
-        </div>
+      <div className="bg-[#2D2D2D]">
+        {/* <FormSection /> */}
+        {/* <div className="px-20">
+          <Separator />
+        </div> */}
         <FooterSection />
-      </div> */}
+      </div>
     </>
   );
 }
