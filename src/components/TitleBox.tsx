@@ -7,10 +7,10 @@ interface TitleBoxProps {
 const TitleBox = ({ title, text, className }: TitleBoxProps) => {
   return (
     <div>
-      <h1 className={`font-semibold" mb-2 text-[40px] ${className}`}>
+      <h1 className={`mb-2 text-2xl font-semibold sm:text-[40px] ${className}`}>
         {title}
       </h1>
-      <p className={`text-2xl ${className}`}>{text}</p>
+      <p className={`text-base sm:text-2xl ${className}`}>{text}</p>
     </div>
   );
 };

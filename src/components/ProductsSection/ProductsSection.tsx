@@ -1,7 +1,7 @@
 import TitleBox from "../TitleBox";
 import ProductsCards from "./Cards";
 
-const Products = () => {
+const ProductsSection = () => {
   return (
     <div className="w-full pt-16 pb-8">
       <TitleBox
@@ -15,4 +15,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductsSection;

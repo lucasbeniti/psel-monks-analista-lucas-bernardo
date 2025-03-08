@@ -1,20 +1,20 @@
 import Header from "./Header";
 import HeroText from "./HeroText";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
-    <div className="flex w-full h-[480px] bg-[#2d2d2d] rounded-b-4xl">
-      <div className="pt-6 pl-[80px] w-[860px]">
+    <div className="flex h-[480px] w-full rounded-b-4xl bg-[#2d2d2d]">
+      <div className="w-[860px] pt-6 pl-[80px]">
         <Header />
         <HeroText />
       </div>
       <img
         src="/large-logo.png"
         alt="Monks"
-        className="w-[506px] h-[480px] mx-auto"
+        className="mx-auto h-[480px] w-[506px]"
       />
     </div>
   );
 };
 
-export default Hero;
+export default HeroSection;

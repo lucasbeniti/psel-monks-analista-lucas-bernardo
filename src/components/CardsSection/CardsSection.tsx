@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-const Cards = () => {
+const CardsSection = () => {
   return (
     <div className="flex items-center gap-10 pt-8 pb-16">
       <Card />
@@ -10,4 +10,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default CardsSection;

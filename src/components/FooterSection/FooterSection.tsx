@@ -1,7 +1,7 @@
 import Infos from "./Infos";
 import Socials from "./Socials";
 
-const Footer = () => {
+const FooterSection = () => {
   return (
     <div className="flex h-[220px] w-full flex-col items-center justify-center">
       <Socials />
@@ -10,4 +10,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterSection;

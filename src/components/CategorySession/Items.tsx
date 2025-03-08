@@ -2,7 +2,7 @@ import Item from "./Item";
 
 const Items = () => {
   return (
-    <div className="w-full h-full flex gap-6 flex-wrap justify-center items-center">
+    <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
       <Item text="Perfumaria" />
       <Item text="Corpo e banho" />
       <Item text="Hidratante" />

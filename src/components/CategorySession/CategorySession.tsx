@@ -5,7 +5,7 @@ const CategorySession = () => {
   return (
     <div className="py-8">
       <Title />
-      <div className="mt-10">
+      <div className="mt-6 sm:mt-10">
         <Items />
       </div>
     </div>

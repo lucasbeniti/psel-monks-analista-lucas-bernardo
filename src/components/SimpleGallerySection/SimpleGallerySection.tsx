@@ -1,13 +1,13 @@
 import MainPicture from "./MainPicture";
 import SecondaryPics from "./SecondaryPics";
 
-const SimpleGallery = () => {
+const SimpleGallerySection = () => {
   return (
-    <div className="w-full py-16 grid grid-cols-2 gap-6">
+    <div className="grid w-full grid-cols-2 gap-6 py-16">
       <MainPicture />
       <SecondaryPics />
     </div>
   );
 };
 
-export default SimpleGallery;
+export default SimpleGallerySection;

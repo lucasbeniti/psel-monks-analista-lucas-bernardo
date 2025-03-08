@@ -1,7 +1,7 @@
 import TitleBox from "../TitleBox";
 import Buttons from "./Buttons";
 
-const InfoBox = () => {
+const AppSection = () => {
   return (
     <div className="flex h-full w-full items-center justify-between gap-10 rounded-3xl bg-[#3C0C60] p-10">
       <TitleBox
@@ -15,4 +15,4 @@ const InfoBox = () => {
   );
 };
 
-export default InfoBox;
+export default AppSection;
