@@ -3,15 +3,15 @@ import HeroText from "./HeroText";
 
 const HeroSection = () => {
   return (
-    <div className="flex h-[480px] w-full rounded-b-4xl bg-[#2d2d2d]">
-      <div className="w-[860px] py-6 pl-[80px]">
+    <div className="flex h-[360px] w-full bg-[#2d2d2d] sm:h-[480px] sm:rounded-b-4xl">
+      <div className="w-[60%] pl-[20px] sm:py-6 sm:pl-[80px]">
         <Header />
         <HeroText />
       </div>
       <img
         src="/large-logo.png"
         alt="Monks"
-        className="mx-auto h-full w-auto"
+        className="ml-auto h-full w-auto overflow-hidden"
       />
     </div>
   );

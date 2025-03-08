@@ -4,6 +4,7 @@ import CardsSection from "./components/CardsSection/CardsSection";
 import CategorySession from "./components/CategorySession/CategorySession";
 import FooterSection from "./components/FooterSection/FooterSection";
 import FormSection from "./components/FormSection/FormSection";
+import HeroSection from "./components/HeroSection/HeroSection";
 import ProductsSection from "./components/ProductsSection/ProductsSection";
 import Separator from "./components/Separator";
 import SimpleGallerySection from "./components/SimpleGallerySection/SimpleGallerySection";
@@ -11,7 +12,7 @@ import SimpleGallerySection from "./components/SimpleGallerySection/SimpleGaller
 function App() {
   return (
     <>
-      {/* <HeroSection /> */}
+      <HeroSection />
       <div className="px-6 sm:px-20">
         <ProductsSection />
         <SimpleGallerySection />
