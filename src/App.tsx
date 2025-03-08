@@ -1,5 +1,6 @@
 import "./App.css";
 import InfoBox from "./components/AppSection/InfoBox";
+import Cards from "./components/CardSection/Cards";
 import CategorySession from "./components/CategorySession/CategorySession";
 import Hero from "./components/HeroSection/Hero";
 import Products from "./components/ProductsSection/Products";
@@ -17,6 +18,7 @@ function App() {
       <div className="px-20">
         <CategorySession />
       </div>
+      <Cards />
     </>
   );
 }
