@@ -1,5 +1,5 @@
-import ProductsCards from "./ProductsCard";
-import ProductsTitleBox from "./ProductsTitleBox";
+import ProductsCards from "./Cards";
+import ProductsTitleBox from "./TitleBox";
 
 const Products = () => {
   return (

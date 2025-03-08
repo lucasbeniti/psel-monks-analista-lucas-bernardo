@@ -1,6 +1,6 @@
-import ProductCard from "./ProductCard";
+import ProductCard from "./Card";
 
-const ProductsCards = () => {
+const Cards = () => {
   return (
     <div className="flex items-center gap-6 w-full mt-10">
       <ProductCard />
@@ -11,4 +11,4 @@ const ProductsCards = () => {
   );
 };
 
-export default ProductsCards;
+export default Cards;

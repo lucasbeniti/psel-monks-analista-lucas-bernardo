@@ -1,4 +1,4 @@
-const ProductsTitleBox = () => {
+const TitleBox = () => {
   return (
     <>
       <h1 className="text-[40px] font-semibold mb-2 text-[#2D2D2D]">
@@ -12,4 +12,4 @@ const ProductsTitleBox = () => {
   );
 };
 
-export default ProductsTitleBox;
+export default TitleBox;

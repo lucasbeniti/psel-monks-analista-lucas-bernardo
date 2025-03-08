@@ -1,6 +1,6 @@
-import SimpleGalleryTitleBox from "./SimpleGalleryTitleBox";
+import SimpleGalleryTitleBox from "./TitleBox";
 
-const SimpleGalleryMainPicture = () => {
+const MainPicture = () => {
   return (
     <div className="h-[717px]">
       <SimpleGalleryTitleBox />
@@ -9,4 +9,4 @@ const SimpleGalleryMainPicture = () => {
   );
 };
 
-export default SimpleGalleryMainPicture;
+export default MainPicture;

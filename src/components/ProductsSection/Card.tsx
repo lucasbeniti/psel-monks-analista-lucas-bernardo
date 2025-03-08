@@ -1,4 +1,4 @@
-const ProductCard = () => {
+const Card = () => {
   return (
     <div className="rounded-lg bg-white w-fit pb-4 pt-[6px] px-[6px]">
       <img src="/image (1).png" alt="" className="w-full" />
@@ -12,4 +12,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default Card;

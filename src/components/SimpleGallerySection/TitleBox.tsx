@@ -1,4 +1,4 @@
-const SimpleGalleryTitleBox = () => {
+const TitleBox = () => {
   return (
     <div className="mb-8">
       <h1 className="text-[#2D2D2D] mb-2 text-[40px] font-semibold">
@@ -12,4 +12,4 @@ const SimpleGalleryTitleBox = () => {
   );
 };
 
-export default SimpleGalleryTitleBox;
+export default TitleBox;
