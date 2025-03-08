@@ -13,17 +13,17 @@ function App() {
   return (
     <>
       <Hero />
-      <Products />
-      <SimpleGallery />
       <div className="px-20">
+        <Products />
+        <SimpleGallery />
         <InfoBox />
-      </div>
-      <div className="px-20">
         <CategorySession />
+        <Cards />
       </div>
-      <Cards />
       <Form />
-      <Separator />
+      <div className="px-20">
+        <Separator />
+      </div>
       <Footer />
     </>
   );
