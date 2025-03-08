@@ -2,7 +2,7 @@ interface InputProps {
   placeholder: string;
 }
 
-const Input = ({ placeholder = "Categoria*" }: InputProps) => {
+const Input = ({ placeholder }: InputProps) => {
   return (
     <input
       type="text"
