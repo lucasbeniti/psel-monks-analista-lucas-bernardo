@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const Form = () => {
   return (
-    <div className="py-16 px-20 gap-40 flex items-center bg-[#2D2D2D] h-[584px]">
+    <div className="flex h-[584px] items-center gap-40 px-20 py-16">
       <img src="/Image (2).png" alt="" />
       <Card />
     </div>

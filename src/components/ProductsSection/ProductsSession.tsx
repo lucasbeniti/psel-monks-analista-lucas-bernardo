@@ -1,21 +1,18 @@
 import TitleBox from "../TitleBox";
+import ProductsCards from "./Cards";
 
-const MainPicture = () => {
+const Products = () => {
   return (
-    <div className="h-[717px]">
+    <div className="w-full pt-16 pb-8">
       <TitleBox
         title="Lorem ipsum dolor sit amet consectetur"
         text="Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus
         sit scelerisque quis commodo"
         className="text-[#2D2D2D]"
       />
-      <img
-        src="/image (1).png"
-        alt=""
-        className="mt-[34px] h-[525px] w-[591px]"
-      />
+      <ProductsCards />
     </div>
   );
 };
 
-export default MainPicture;
+export default Products;

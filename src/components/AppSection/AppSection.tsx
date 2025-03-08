@@ -1,21 +1,18 @@
 import TitleBox from "../TitleBox";
+import Buttons from "./Buttons";
 
-const MainPicture = () => {
+const InfoBox = () => {
   return (
-    <div className="h-[717px]">
+    <div className="flex h-full w-full items-center justify-between gap-10 rounded-3xl bg-[#3C0C60] p-10">
       <TitleBox
         title="Lorem ipsum dolor sit amet consectetur"
         text="Lorem ipsum dolor sit amet consectetur. Semper orci adipiscing faucibus
         sit scelerisque quis commodo"
-        className="text-[#2D2D2D]"
+        className="text-[#EAE8E4]"
       />
-      <img
-        src="/image (1).png"
-        alt=""
-        className="mt-[34px] h-[525px] w-[591px]"
-      />
+      <Buttons />
     </div>
   );
 };
 
-export default MainPicture;
+export default InfoBox;

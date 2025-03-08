@@ -3,7 +3,7 @@ import Socials from "./Socials";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#2D2D2D] flex justify-center items-center h-[220px] flex-col">
+    <div className="flex h-[220px] w-full flex-col items-center justify-center">
       <Socials />
       <Infos />
     </div>

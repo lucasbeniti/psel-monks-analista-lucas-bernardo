@@ -1,13 +1,13 @@
 import "./App.css";
-import InfoBox from "./components/AppSection/InfoBox";
-import Cards from "./components/CardSection/Cards";
+import InfoBox from "./components/AppSection/AppSection";
+import Cards from "./components/CardSection/CardsSection";
 import CategorySession from "./components/CategorySession/CategorySession";
-import Footer from "./components/FooterSection/Footer";
-import Form from "./components/FormSection/Form";
-import Hero from "./components/HeroSection/Hero";
-import Products from "./components/ProductsSection/Products";
+import Footer from "./components/FooterSection/FooterSection";
+import Form from "./components/FormSection/FormSection";
+import Hero from "./components/HeroSection/HeroSection";
+import Products from "./components/ProductsSection/ProductsSession";
 import Separator from "./components/Separator";
-import SimpleGallery from "./components/SimpleGallerySection/SimpleGallery";
+import SimpleGallery from "./components/SimpleGallerySection/SimpleGallerySection";
 
 function App() {
   return (
@@ -20,11 +20,13 @@ function App() {
         <CategorySession />
         <Cards />
       </div>
-      <Form />
-      <div className="px-20">
-        <Separator />
+      <div className="bg-[#2D2D2D]">
+        <Form />
+        <div className="px-20">
+          <Separator />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
