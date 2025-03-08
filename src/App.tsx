@@ -1,7 +1,8 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import Products from "./components/Products";
-import SimpleGallery from "./components/SimpleGallery";
+import InfoBox from "./components/AppSection/InfoBox";
+import Hero from "./components/HeroSection/Hero";
+import Products from "./components/ProductsSection/Products";
+import SimpleGallery from "./components/SimpleGallerySection/SimpleGallery";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <Hero />
       <Products />
       <SimpleGallery />
+      <div className="px-20">
+        <InfoBox />
+      </div>
     </>
   );
 }
