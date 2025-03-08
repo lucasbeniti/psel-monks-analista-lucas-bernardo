@@ -5,6 +5,7 @@ import CategorySession from "./components/CategorySession/CategorySession";
 import Footer from "./components/FooterSection/Footer";
 import Hero from "./components/HeroSection/Hero";
 import Products from "./components/ProductsSection/Products";
+import Separator from "./components/Separator";
 import SimpleGallery from "./components/SimpleGallerySection/SimpleGallery";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <CategorySession />
       </div>
       <Cards />
+      <Separator />
       <Footer />
     </>
   );
