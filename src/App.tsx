@@ -1,4 +1,5 @@
 import "./App.css";
+import AppSection from "./components/AppSection/AppSection";
 import CardsSection from "./components/CardsSection/CardsSection";
 import CategorySession from "./components/CategorySession/CategorySession";
 
@@ -8,8 +9,8 @@ function App() {
       {/* <HeroSection /> */}
       <div className="px-6 sm:px-20">
         {/* <ProductsSection />
-        <SimpleGallerySection />
-        <AppSection /> */}
+        <SimpleGallerySection /> */}
+        <AppSection />
         <CategorySession />
         <CardsSection />
       </div>
